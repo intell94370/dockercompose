@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "please enter the file name along with its path"
+read filename
+
+if [ -f $filename ]
+then
+  echo "file exists"
+else
+  echo "file doesn't exit"
+fi
